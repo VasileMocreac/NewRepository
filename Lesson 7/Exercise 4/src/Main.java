@@ -1,16 +1,16 @@
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = new String("");
-        str = sc.nextLine();
-        String parts2 = str.replace("-", "/" );
+         String str = sc.nextLine();
+        String array1[]= str.split(str);
+        String[] dateArray = str.split("-");
+        System.out.println(Arrays.toString(dateArray));
+        
 
-        System.out.println(parts2);
-
-        //nu prea inteleg cum sa rezolv acest exercitiu
-
+        }
     }
 }
