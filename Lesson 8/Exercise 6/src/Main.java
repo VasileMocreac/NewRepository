@@ -3,11 +3,12 @@ public class Main {
     public static long getMaxMinusCurrent(long val) {
         return Long.MAX_VALUE - val;
     }
-    public static int intVal (int number){
-
+    public static int getMaxMinusCurrent(int val) {
+        return Integer.MAX_VALUE - val;
     }
 
-    public static long intResult (long f){
+    public static short getMaxMinusCurrent(short val) {
+        return (short) (Short.MAX_VALUE - val);
 
     }
 // Do not change code below
